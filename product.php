@@ -39,7 +39,7 @@ echo "Connected successfully";
         // }
     // insert into ta_live_products
 // $sql = "INSERT INTO ta_live_products (product_name, image_name, status_id)
-//         VALUES ('Payelectricitybills', 'peb.jpg', '1');";
+//         VALUES ('Pay Electricity Bills', 'peb.jpg', '1');";
 // $sql .= "INSERT INTO ta_live_products (product_name, image_name, status_id)
 //          VALUES ('EKO Electricity Distribution Company', 'eko.jpg', '1');";
 // $sql .= "INSERT INTO ta_live_products (product_name, image_name, status_id)
@@ -56,14 +56,14 @@ echo "Connected successfully";
 //     }
 
     // insert into developing_products
-$sql = "INSERT INTO developing_products (product_name, image_name, status_id)
-        VALUES ('SHIRIN', 'shirin.png', '1');";
+// $sql = "INSERT INTO developing_products (product_name, image_name, status_id)
+//         VALUES ('SHIRIN', 'shirin.png', '1');";
 
-if ($conn->multi_query($sql) === TRUE) {
-        echo "New records created successfully";
-    } else {
-        echo "Error: " . $sql . "<br>" . $conn->error;
-    }
+// if ($conn->multi_query($sql) === TRUE) {
+//         echo "New records created successfully";
+//     } else {
+//         echo "Error: " . $sql . "<br>" . $conn->error;
+//     }
 
 $conn->close();
 ?>
