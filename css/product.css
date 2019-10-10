@@ -2,8 +2,6 @@
     width:700px;
     height:50px;
     margin-top:20px;
-    margin-bottom:20px;
-
 }
 .ta{
     width: 200px;
@@ -44,3 +42,50 @@
     text-align: left;
     color: #64bf5d;
 }
+.img{
+    width: 100px;
+}
+.image1{
+    width: 11px;
+  height: 10px;
+  margin-left: 5px;
+  margin-bottom: 4px;
+}
+.image_text{
+    font-size: 12.5px ;
+}
+.image_style{
+    margin-top: 10px;
+    margin-left: 30px;
+    width: 120px;
+  height: 50px;
+
+}
+.card_style{
+    width: 180px;
+  height: 90px;
+  box-shadow: 0 1.5px 4px 0 rgba(0, 0, 0, 0.16);
+  border: solid 0.5px #3939f8;
+  background-color: #ffffff;
+  margin-bottom: 15px;
+}
+.image_style2{
+    margin-top: 20px;
+    /* margin-bottom: 20px; */
+    margin-left: 60px;
+    width: 170px;
+    height: 50px;
+    float: left;
+}
+.card_style2{
+    width: 642px;
+  height: 100px;
+  box-shadow: 0 1.5px 4px 0 rgba(0, 0, 0, 0.16);
+  background-color: #ffffff;
+  /* margin-bottom: 15px; */
+}
+/* .text_style{
+  font-family: Gelion;
+  font-size: 19px;
+  text-align: left;
+} */
