@@ -63,7 +63,8 @@ echo "Connected successfully";
     // insert into developing_products
 // $sql = "INSERT INTO developing_products (product_name, image_name, status_id)
 //         VALUES ('SHIRIN', 'shirin3.png', '1');";
-
+// $sql .= "INSERT INTO developing_products (product_name, image_name, status_id)
+//        VALUES ('BUY BOT', 'buybot.png', '1')";
 // if ($conn->multi_query($sql) === TRUE) {
 //         echo "New records created successfully";
 //     } else {

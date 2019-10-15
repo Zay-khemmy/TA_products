@@ -15,7 +15,7 @@
         <!-- main container -->
 <div class="container">
     <div class="logo">
-        <div class="ta">
+        <div class="ta">  
             <img src="images/techadvance.png" srcset="images/techadvance2.png 2x, images/techadvance3.png 3x">
         </div>
         <div class="division">
@@ -34,8 +34,10 @@
         </div>
     </div>
 
+    <!-- fetching ta_live_products -->
     <div class="container" class="container_design">
     <div class='row'>
+        
 <?php
         $servername = "localhost";
         $username = "root";
@@ -61,7 +63,6 @@
                 $value = round(abs($calculate / $lastweek));
                 $folder = 'images/';
                 $url = $folder.$row['image_name'];
-                $percent = '%';
                 if ($lastweek > $thisweek) {
                     $image1 = '<img class="image1" src="images/polygon1.png" srcset="images/polygon2.png 2x, images/polygon3.png 3x">';
                 }else {
@@ -70,7 +71,8 @@
                  echo "<div class='col-md-4'>
                             <div class='card card_style'>
                                 <img class='img image_style' src='$url'>
-                                <h6 class='text-success image_text'> $image1 $value $percent</h6>
+                                <img class='img_style' src='images/ellipse_3.png'>
+                                <h6 class='text-dark image_text'> $image1 $value%</h6>
                             </div>
                         </div>";
             }
@@ -79,7 +81,9 @@
     ?>
 
       </div>  <!-- row close -->
-    <div class='row'>
+
+      <!-- fetching developing_products -->
+    <div class='row'>  <!-- second row open -->
       <?php
         $servername = "localhost";
         $username = "root";
@@ -100,20 +104,21 @@
                 $complete = '50% COMPLETE';
                 $folder = 'images/';
                 $url = $folder.$row['image_name'];
-                 echo "<div class='col-md-12'>
-                            <div class='card card_style2'>
-                                <div style='display:inline-block;'><img class='img image_style2' src='$url'></div>
-                                <h6 class='text-primary text_style'>$complete</h6>
-                            </div>
-                        </div>";
+                echo "<div class='col-md-6'>
+                <div class='card card_style2'>
+                    <img class='img image_style2' src='$url'>
+                    <img class='img_style2' src='images/ellipse3.png'>
+                </div>
+            </div>";
             }
         }
         $conn->close();
       ?>
-    </div>
+    </div>  <!-- second row close -->
     </div> <!-- container -->
 </div>  <!-- main container -->
 </body>
 </html>
 
 <!-- <h4 class='text-danger'>". $row["status_id"]."</h4> -->
+<!-- <h6 class='text-primary text_style'>$complete</h6> -->

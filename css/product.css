@@ -9,14 +9,12 @@
     float: left;
 }
 .growth{
-    /* border: 1px solid rgb(64, 26, 168); */
     width: 50px;
     height: 40px;
     float: left;
     margin-left: 320px;
 }
 .growth_two{
-    /* border: 1px solid rgb(87, 197, 36); */
     width: 100px;
     height: 40px;
     margin-left: 10px;
@@ -29,8 +27,6 @@
     margin-top: 1px;
 }
 .sales_growth{
-    /* width: 41px; */
-    /* height: 8.5px; */
     float: left;
     font-family: Gelion;
     font-size: 7px;
@@ -45,6 +41,20 @@
 .img{
     width: 100px;
 }
+.img_style{
+    width: 7.5px;
+    height: 7.5px;
+    position: absolute;
+    top: 1%;
+    right: 2%;
+}
+.img_style2{
+    width: 7.5px;
+    height: 7.5px;
+    position: absolute;
+    top: 1%;
+    right: 2%;
+}
 .image1{
     width: 11px;
   height: 10px;
@@ -58,7 +68,7 @@
     margin-top: 10px;
     margin-left: 30px;
     width: 120px;
-  height: 50px;
+    height: 50px;
 
 }
 .card_style{
@@ -71,21 +81,27 @@
 }
 .image_style2{
     margin-top: 20px;
-    /* margin-bottom: 20px; */
-    margin-left: 60px;
-    width: 170px;
-    height: 50px;
+    margin-left: 40px;
+    width: 120px;
+    height: 60px;
     float: left;
 }
 .card_style2{
-    width: 642px;
-  height: 100px;
-  box-shadow: 0 1.5px 4px 0 rgba(0, 0, 0, 0.16);
-  background-color: #ffffff;
+    width: 280px;
+    height: 120px;
+    box-shadow: 0 1.5px 4px 0 rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+    flex-direction: row;
   /* margin-bottom: 15px; */
 }
-/* .text_style{
+.text_style{
   font-family: Gelion;
-  font-size: 19px;
+  font-size: 15px;
   text-align: left;
-} */
+  display: inline-block;
+}
+.allign1{
+    border: 1px solid red;
+    width: 200px;
+    height: 50px;
+}
